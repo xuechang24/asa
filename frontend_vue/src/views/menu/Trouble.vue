@@ -8,7 +8,7 @@
       <!--uploadUrl:"http://192.168.31.185:8888/files/upload", -->
       <el-upload
           class="upload_demo"
-          action= "http://192.168.31.185:8888/files/upload"
+          action= "http://localhost:8888/files/upload"
 
           :on-success="getAllFiles"
 
@@ -101,7 +101,7 @@ import axios from 'axios'
 // 创建 axios 实例
 const http_python = axios.create({
     // 统一 url 配置，定义访问前缀 baseURL
-    baseURL: 'http://192.168.31.185:5000',
+    baseURL: 'http://localhost:5000',
     // 定义请求超时时间
     timeout: 10000,
     // proxy:{

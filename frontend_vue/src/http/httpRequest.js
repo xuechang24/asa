@@ -16,7 +16,7 @@ const http = axios.create({
     // 定义请求超时时间
     timeout: 10000,
     proxy:{
-        host:'192.168.31.185',
+        host:'localhost',
         port:8888
     },
     // 请求带上 cookie

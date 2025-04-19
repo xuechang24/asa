@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="954ce74f-04e9-4e4f-81d1-718a04d4a829" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/frontend_vue/src/assets/intro.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend_vue/src/components/common/Registry.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend_vue/src/components/common/UpdatePasswordOutside.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend_vue/src/http/http.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend_vue/src/http/modules/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend_vue/src/http/modules/registry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend_vue/src/http/modules/updatePassword.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend_vue/src/store/modules/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/log/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/log/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/log/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/log/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/log/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/log/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/log/warn.log" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/log/warn.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/asa/common/exception/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/asa/common/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/asa/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/asa/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/asa/controller/BackUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/asa/controller/BackUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/asa/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/asa/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/asa/demos/web/BasicController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/asa/demos/web/PathVariableController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/asa/demos/web/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/asa/entity/BackUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/asa/entity/BackUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/asa/mapper/BackUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/asa/mapper/BackUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/asa/mapper/xml/BackUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/asa/service/BackUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/asa/service/BackUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/asa/service/impl/BackUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/asa/service/impl/BackUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_vue/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_vue/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_vue/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_vue/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_vue/src/components/HelloWorld.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_vue/src/components/common/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_vue/src/components/common/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_vue/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_vue/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_vue/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_vue/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_vue/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_vue/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_vue/src/views/AboutView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_vue/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_vue/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_vue/src/views/HomeView.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_vue/src/views/home/Aside.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_vue/src/views/home/Aside.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_vue/src/views/home/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_vue/src/views/home/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_vue/src/views/home/UpdatePassword.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_vue/src/views/home/UpdatePassword.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_vue/src/views/menu/Echarts.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_vue/src/views/menu/Trouble.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_vue/src/views/menu/HomePage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_vue/src/views/menu/HomePage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend_vue/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend_vue/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2vUQc0CgkBuDDeWpNma1fDSGXQO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="954ce74f-04e9-4e4f-81d1-718a04d4a829" name="Changes" comment="" />
+      <created>1744197251507</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744197251507</updated>
+      <workItem from="1744197277823" duration="2000" />
+    </task>
+    <servers />
+  </component>
+</project>
