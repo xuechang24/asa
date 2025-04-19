@@ -1,0 +1,59 @@
+2025-04-11 17:09:17.256 [main] DEBUG com.asa.TestAutoGenerator - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-11 18:57:13.443 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-11 18:57:49.715 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==>  Preparing: select * from back_user where name = ? 
+2025-04-11 18:57:49.766 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==> Parameters: zhangsan(String)
+2025-04-11 18:57:49.848 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - <==      Total: 1
+2025-04-11 19:02:21.330 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==>  Preparing: select * from back_user where name = ? 
+2025-04-11 19:02:21.331 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==> Parameters: zhangsan(String)
+2025-04-11 19:02:21.333 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.getUserByName - <==      Total: 1
+2025-04-11 19:04:21.872 [http-nio-8888-exec-4] DEBUG com.asa.mapper.FilesMapper.insert - ==>  Preparing: INSERT INTO files ( filename, storage_path, create_time, update_time, delete_flag, version ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+2025-04-11 19:04:21.876 [http-nio-8888-exec-4] DEBUG com.asa.mapper.FilesMapper.insert - ==> Parameters: daisy1.jpg(String), http://124.71.79.248:8886/group1/M00/00/00/wKgPH2f49zaAOaNlAAEXJp4ztPo250.jpg(String), 2025-04-11 19:04:21.866(Timestamp), 2025-04-11 19:04:21.869(Timestamp), 0(Integer), 1(Integer)
+2025-04-11 19:04:22.061 [http-nio-8888-exec-4] DEBUG com.asa.mapper.FilesMapper.insert - <==    Updates: 1
+2025-04-11 19:08:09.359 [http-nio-8888-exec-6] DEBUG com.asa.mapper.FilesMapper.insert - ==>  Preparing: INSERT INTO files ( filename, storage_path, create_time, update_time, delete_flag, version ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+2025-04-11 19:08:09.361 [http-nio-8888-exec-6] DEBUG com.asa.mapper.FilesMapper.insert - ==> Parameters: dandelion1.jpg(String), http://124.71.79.248:8886/group1/M00/00/00/wKgPH2f4-BqAXjqbAAYbbc58RiE482.jpg(String), 2025-04-11 19:08:09.357(Timestamp), 2025-04-11 19:08:09.357(Timestamp), 0(Integer), 1(Integer)
+2025-04-11 19:08:09.473 [http-nio-8888-exec-6] DEBUG com.asa.mapper.FilesMapper.insert - <==    Updates: 1
+2025-04-11 19:08:09.839 [http-nio-8888-exec-7] DEBUG com.asa.mapper.FilesMapper.selectList - ==>  Preparing: SELECT id,filename,storage_path,create_time,update_time,delete_flag,version FROM files WHERE delete_flag=0 ORDER BY id DESC 
+2025-04-11 19:08:09.840 [http-nio-8888-exec-7] DEBUG com.asa.mapper.FilesMapper.selectList - ==> Parameters: 
+2025-04-11 19:08:09.843 [http-nio-8888-exec-7] DEBUG com.asa.mapper.FilesMapper.selectList - <==      Total: 2
+2025-04-11 19:14:59.364 [http-nio-8888-exec-9] DEBUG com.asa.mapper.FilesMapper.insert - ==>  Preparing: INSERT INTO files ( filename, storage_path, create_time, update_time, delete_flag, version ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+2025-04-11 19:14:59.367 [http-nio-8888-exec-9] DEBUG com.asa.mapper.FilesMapper.insert - ==> Parameters: roses1.jpg(String), http://124.71.79.248:8886/group1/M00/00/00/wKgPH2f4-bSASg4dAAB8KEOF8VU997.jpg(String), 2025-04-11 19:14:59.362(Timestamp), 2025-04-11 19:14:59.362(Timestamp), 0(Integer), 1(Integer)
+2025-04-11 19:14:59.541 [http-nio-8888-exec-9] DEBUG com.asa.mapper.FilesMapper.insert - <==    Updates: 1
+2025-04-11 19:14:59.886 [http-nio-8888-exec-10] DEBUG com.asa.mapper.FilesMapper.selectList - ==>  Preparing: SELECT id,filename,storage_path,create_time,update_time,delete_flag,version FROM files WHERE delete_flag=0 ORDER BY id DESC 
+2025-04-11 19:14:59.887 [http-nio-8888-exec-10] DEBUG com.asa.mapper.FilesMapper.selectList - ==> Parameters: 
+2025-04-11 19:14:59.892 [http-nio-8888-exec-10] DEBUG com.asa.mapper.FilesMapper.selectList - <==      Total: 3
+2025-04-11 19:28:45.208 [http-nio-8888-exec-2] DEBUG com.asa.mapper.FilesMapper.insert - ==>  Preparing: INSERT INTO files ( filename, storage_path, create_time, update_time, delete_flag, version ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+2025-04-11 19:28:45.210 [http-nio-8888-exec-2] DEBUG com.asa.mapper.FilesMapper.insert - ==> Parameters: sunflowers1.jpg(String), http://124.71.79.248:8886/group1/M00/00/00/wKgPH2f4_O2AR6ozAAKXaJzmEhg773.jpg(String), 2025-04-11 19:28:45.205(Timestamp), 2025-04-11 19:28:45.205(Timestamp), 0(Integer), 1(Integer)
+2025-04-11 19:28:45.315 [http-nio-8888-exec-2] DEBUG com.asa.mapper.FilesMapper.insert - <==    Updates: 1
+2025-04-11 19:28:45.338 [http-nio-8888-exec-3] DEBUG com.asa.mapper.FilesMapper.selectList - ==>  Preparing: SELECT id,filename,storage_path,create_time,update_time,delete_flag,version FROM files WHERE delete_flag=0 ORDER BY id DESC 
+2025-04-11 19:28:45.339 [http-nio-8888-exec-3] DEBUG com.asa.mapper.FilesMapper.selectList - ==> Parameters: 
+2025-04-11 19:28:45.343 [http-nio-8888-exec-3] DEBUG com.asa.mapper.FilesMapper.selectList - <==      Total: 4
+2025-04-11 19:29:25.477 [http-nio-8888-exec-4] DEBUG com.asa.mapper.FilesMapper.insert - ==>  Preparing: INSERT INTO files ( filename, storage_path, create_time, update_time, delete_flag, version ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+2025-04-11 19:29:25.478 [http-nio-8888-exec-4] DEBUG com.asa.mapper.FilesMapper.insert - ==> Parameters: tulips1.jpg(String), http://124.71.79.248:8886/group1/M00/00/00/wKgPH2f4_RaAVJSXAAXe4A5w_IE728.jpg(String), 2025-04-11 19:29:25.475(Timestamp), 2025-04-11 19:29:25.475(Timestamp), 0(Integer), 1(Integer)
+2025-04-11 19:29:25.690 [http-nio-8888-exec-4] DEBUG com.asa.mapper.FilesMapper.insert - <==    Updates: 1
+2025-04-11 19:29:26.009 [http-nio-8888-exec-5] DEBUG com.asa.mapper.FilesMapper.selectList - ==>  Preparing: SELECT id,filename,storage_path,create_time,update_time,delete_flag,version FROM files WHERE delete_flag=0 ORDER BY id DESC 
+2025-04-11 19:29:26.010 [http-nio-8888-exec-5] DEBUG com.asa.mapper.FilesMapper.selectList - ==> Parameters: 
+2025-04-11 19:29:26.013 [http-nio-8888-exec-5] DEBUG com.asa.mapper.FilesMapper.selectList - <==      Total: 5
+2025-04-11 19:30:49.694 [http-nio-8888-exec-7] DEBUG com.asa.mapper.FilesMapper.insert - ==>  Preparing: INSERT INTO files ( filename, storage_path, create_time, update_time, delete_flag, version ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+2025-04-11 19:30:49.696 [http-nio-8888-exec-7] DEBUG com.asa.mapper.FilesMapper.insert - ==> Parameters: tulips1.jpg(String), http://124.71.79.248:8886/group1/M00/00/00/wKgPH2f4_WqATIhOAAXe4A5w_IE854.jpg(String), 2025-04-11 19:30:49.692(Timestamp), 2025-04-11 19:30:49.692(Timestamp), 0(Integer), 1(Integer)
+2025-04-11 19:30:49.800 [http-nio-8888-exec-7] DEBUG com.asa.mapper.FilesMapper.insert - <==    Updates: 1
+2025-04-11 19:30:50.134 [http-nio-8888-exec-8] DEBUG com.asa.mapper.FilesMapper.selectList - ==>  Preparing: SELECT id,filename,storage_path,create_time,update_time,delete_flag,version FROM files WHERE delete_flag=0 ORDER BY id DESC 
+2025-04-11 19:30:50.134 [http-nio-8888-exec-8] DEBUG com.asa.mapper.FilesMapper.selectList - ==> Parameters: 
+2025-04-11 19:30:50.137 [http-nio-8888-exec-8] DEBUG com.asa.mapper.FilesMapper.selectList - <==      Total: 6
+2025-04-11 19:31:23.259 [http-nio-8888-exec-9] DEBUG com.asa.mapper.FilesMapper.insert - ==>  Preparing: INSERT INTO files ( filename, storage_path, create_time, update_time, delete_flag, version ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+2025-04-11 19:31:23.261 [http-nio-8888-exec-9] DEBUG com.asa.mapper.FilesMapper.insert - ==> Parameters: roses1.jpg(String), http://124.71.79.248:8886/group1/M00/00/00/wKgPH2f4_YuAGruYAAB8KEOF8VU006.jpg(String), 2025-04-11 19:31:23.257(Timestamp), 2025-04-11 19:31:23.257(Timestamp), 0(Integer), 1(Integer)
+2025-04-11 19:31:23.328 [http-nio-8888-exec-9] DEBUG com.asa.mapper.FilesMapper.insert - <==    Updates: 1
+2025-04-11 19:31:23.348 [http-nio-8888-exec-10] DEBUG com.asa.mapper.FilesMapper.selectList - ==>  Preparing: SELECT id,filename,storage_path,create_time,update_time,delete_flag,version FROM files WHERE delete_flag=0 ORDER BY id DESC 
+2025-04-11 19:31:23.349 [http-nio-8888-exec-10] DEBUG com.asa.mapper.FilesMapper.selectList - ==> Parameters: 
+2025-04-11 19:31:23.352 [http-nio-8888-exec-10] DEBUG com.asa.mapper.FilesMapper.selectList - <==      Total: 7
+2025-04-11 19:37:29.185 [http-nio-8888-exec-3] DEBUG com.asa.mapper.FilesMapper.insert - ==>  Preparing: INSERT INTO files ( filename, storage_path, create_time, update_time, delete_flag, version ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+2025-04-11 19:37:29.190 [http-nio-8888-exec-3] DEBUG com.asa.mapper.FilesMapper.insert - ==> Parameters: sunflowers1.jpg(String), http://124.71.79.248:8886/group1/M00/00/00/wKgPH2f4_vmANdkSAAKXaJzmEhg365.jpg(String), 2025-04-11 19:37:29.18(Timestamp), 2025-04-11 19:37:29.18(Timestamp), 0(Integer), 1(Integer)
+2025-04-11 19:37:29.409 [http-nio-8888-exec-3] DEBUG com.asa.mapper.FilesMapper.insert - <==    Updates: 1
+2025-04-11 19:37:29.463 [http-nio-8888-exec-4] DEBUG com.asa.mapper.FilesMapper.selectList - ==>  Preparing: SELECT id,filename,storage_path,create_time,update_time,delete_flag,version FROM files WHERE delete_flag=0 ORDER BY id DESC 
+2025-04-11 19:37:29.465 [http-nio-8888-exec-4] DEBUG com.asa.mapper.FilesMapper.selectList - ==> Parameters: 
+2025-04-11 19:37:29.474 [http-nio-8888-exec-4] DEBUG com.asa.mapper.FilesMapper.selectList - <==      Total: 8
+2025-04-11 19:46:52.366 [http-nio-8888-exec-6] DEBUG com.asa.mapper.FilesMapper.insert - ==>  Preparing: INSERT INTO files ( filename, storage_path, create_time, update_time, delete_flag, version ) VALUES ( ?, ?, ?, ?, ?, ? ) 
+2025-04-11 19:46:52.368 [http-nio-8888-exec-6] DEBUG com.asa.mapper.FilesMapper.insert - ==> Parameters: 向日葵.jpg(String), http://124.71.79.248:8886/group1/M00/00/00/wKgPH2f5AS2ANYDYAAH88-btAlk786.jpg(String), 2025-04-11 19:46:52.362(Timestamp), 2025-04-11 19:46:52.363(Timestamp), 0(Integer), 1(Integer)
+2025-04-11 19:46:52.431 [http-nio-8888-exec-6] DEBUG com.asa.mapper.FilesMapper.insert - <==    Updates: 1
+2025-04-11 19:46:52.764 [http-nio-8888-exec-7] DEBUG com.asa.mapper.FilesMapper.selectList - ==>  Preparing: SELECT id,filename,storage_path,create_time,update_time,delete_flag,version FROM files WHERE delete_flag=0 ORDER BY id DESC 
+2025-04-11 19:46:52.765 [http-nio-8888-exec-7] DEBUG com.asa.mapper.FilesMapper.selectList - ==> Parameters: 
+2025-04-11 19:46:52.770 [http-nio-8888-exec-7] DEBUG com.asa.mapper.FilesMapper.selectList - <==      Total: 9

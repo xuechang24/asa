@@ -1,0 +1,4 @@
+2025-04-11 17:09:21.682 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.asa.back.mapper]' package. Please check your configuration.
+2025-04-11 17:09:32.594 [main] WARN  org.apache.velocity.deprecation - configuration key 'file.resource.loader.unicode' has been deprecated in favor of 'resource.loader.file.unicode'
+2025-04-11 17:09:32.595 [main] WARN  org.apache.velocity.deprecation - configuration key 'file.resource.loader.class' has been deprecated in favor of 'resource.loader.file.class'
+2025-04-11 18:57:17.729 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.asa.back.mapper]' package. Please check your configuration.

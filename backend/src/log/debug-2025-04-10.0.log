@@ -1,0 +1,7 @@
+2025-04-10 20:19:06.347 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-10 20:24:34.409 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==>  Preparing: select * from back_user where name = ? 
+2025-04-10 20:24:34.443 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==> Parameters: zhangsan(String)
+2025-04-10 20:24:34.579 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - <==      Total: 1
+2025-04-10 21:16:54.971 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==>  Preparing: select * from back_user where name = ? 
+2025-04-10 21:16:54.972 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==> Parameters: zhangsan(String)
+2025-04-10 21:16:54.975 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.getUserByName - <==      Total: 1

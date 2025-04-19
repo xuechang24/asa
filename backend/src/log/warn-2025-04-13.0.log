@@ -1,0 +1,4 @@
+2025-04-13 10:45:20.251 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.asa.back.mapper]' package. Please check your configuration.
+2025-04-13 12:27:51.443 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.asa.back.mapper]' package. Please check your configuration.
+2025-04-13 12:54:34.093 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.asa.back.mapper]' package. Please check your configuration.
+2025-04-13 12:55:11.882 [http-nio-8888-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'id' for method parameter type int is not present]

@@ -1,0 +1,22 @@
+2025-04-16 02:07:02.526 [http-nio-8888-exec-5] DEBUG com.asa.mapper.QuestionItemMapper.selectList - ==>  Preparing: SELECT item_id,item,create_time,update_time,delete_flag,version FROM question_item WHERE delete_flag=0 ORDER BY item_id DESC 
+2025-04-16 02:07:02.575 [http-nio-8888-exec-5] DEBUG com.asa.mapper.QuestionItemMapper.selectList - ==> Parameters: 
+2025-04-16 02:07:02.594 [http-nio-8888-exec-5] DEBUG com.asa.mapper.QuestionItemMapper.selectList - <==      Total: 5
+2025-04-16 03:11:43.779 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-16 03:16:47.711 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==>  Preparing: select * from back_user where name = ? 
+2025-04-16 03:16:47.843 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==> Parameters: zhangsan(String)
+2025-04-16 03:16:47.947 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - <==      Total: 1
+2025-04-16 03:16:53.139 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==>  Preparing: select * from back_user where name = ? 
+2025-04-16 03:16:53.140 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==> Parameters: zhangsan(String)
+2025-04-16 03:16:53.143 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.getUserByName - <==      Total: 1
+2025-04-16 03:16:56.455 [http-nio-8888-exec-3] DEBUG com.asa.mapper.QuestionItemMapper.selectList - ==>  Preparing: SELECT item_id,item,create_time,update_time,delete_flag,version FROM question_item WHERE delete_flag=0 ORDER BY item_id DESC 
+2025-04-16 03:16:56.458 [http-nio-8888-exec-3] DEBUG com.asa.mapper.QuestionItemMapper.selectList - ==> Parameters: 
+2025-04-16 03:16:56.478 [http-nio-8888-exec-3] DEBUG com.asa.mapper.QuestionItemMapper.selectList - <==      Total: 5
+2025-04-16 03:41:59.432 [http-nio-8888-exec-4] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==>  Preparing: select * from back_user where name = ? 
+2025-04-16 03:41:59.551 [http-nio-8888-exec-4] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==> Parameters: xuechang24(String)
+2025-04-16 03:41:59.727 [http-nio-8888-exec-4] DEBUG com.asa.mapper.BackUserMapper.getUserByName - <==      Total: 1
+2025-04-16 03:42:04.495 [http-nio-8888-exec-5] DEBUG com.asa.mapper.QuestionItemMapper.selectList - ==>  Preparing: SELECT item_id,item,create_time,update_time,delete_flag,version FROM question_item WHERE delete_flag=0 ORDER BY item_id DESC 
+2025-04-16 03:42:04.500 [http-nio-8888-exec-5] DEBUG com.asa.mapper.QuestionItemMapper.selectList - ==> Parameters: 
+2025-04-16 03:42:04.546 [http-nio-8888-exec-5] DEBUG com.asa.mapper.QuestionItemMapper.selectList - <==      Total: 5
+2025-04-16 04:05:37.250 [http-nio-8888-exec-6] DEBUG com.asa.mapper.QuestionItemMapper.selectList - ==>  Preparing: SELECT item_id,item,create_time,update_time,delete_flag,version FROM question_item WHERE delete_flag=0 ORDER BY item_id DESC 
+2025-04-16 04:05:37.332 [http-nio-8888-exec-6] DEBUG com.asa.mapper.QuestionItemMapper.selectList - ==> Parameters: 
+2025-04-16 04:05:37.807 [http-nio-8888-exec-6] DEBUG com.asa.mapper.QuestionItemMapper.selectList - <==      Total: 5

@@ -1,0 +1,32 @@
+  server:
+    port: 8888
+
+  spring:
+    #在 application.yml 或者 application.properties 中指定环境（dev、prod）可以打印不同的日志。
+    profiles:
+      active: dev
+#    解决springboot2.6整合swagger报错
+    mvc:
+      pathmatch:
+        matching-strategy: ant-path-matcher
+
+    datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      username: root
+      password: 224728
+      url: jdbc:mysql://localhost:3306/admin_template?useAffectedRows=true&useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+  #执行一条update语句，执行成功后返回值是 1 ，所以就理所当然的认为返回的是受影响的行数，
+  #但是当你再次执行这条update语句时，按正常的逻辑，数据已存在，更新不会成功，应当返回 0，但是返回值依旧
+  #是 1 ，所以返回值并不是受影响的行数，实际上的返回值是matched记录数（匹配到的行数）
+  #如果想设置返回值是受影响的行数，修改数据库链接配置：增加 useAffectedRows=true 即可
+  #即数据库链接配置为：
+  #jdbc.driver=com.mysql.jdbc.Driver
+  #jdbc.url=jdbc:mysql:///hrm?useAffectedRows=true
+  #jdbc.username=root
+  #jdbc.password=123
+
+  fdfs:
+    connect-timeout: 6000
+    so-timeout: 2000
+    tracker-list: 124.71.79.248:22122
+  fdfsport: http://124.71.79.248:8886

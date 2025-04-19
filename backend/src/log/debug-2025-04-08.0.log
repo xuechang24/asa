@@ -1,0 +1,125 @@
+2025-04-08 10:13:56.614 [main] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 10:22:01.329 [main] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 10:58:17.687 [main] DEBUG com.asa.TestAutoGenerator - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 11:00:18.417 [main] DEBUG com.asa.TestAutoGenerator - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 11:01:05.779 [main] DEBUG com.asa.TestAutoGenerator - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 16:19:06.502 [main] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 16:20:08.735 [http-nio-8888-exec-8] DEBUG com.asa.mapper.BackUserMapper.selectList - ==>  Preparing: SELECT id,name,mobile,password,create_time,update_time,delete_flag,version FROM back_user 
+2025-04-08 16:20:08.763 [http-nio-8888-exec-8] DEBUG com.asa.mapper.BackUserMapper.selectList - ==> Parameters: 
+2025-04-08 16:20:08.785 [http-nio-8888-exec-8] DEBUG com.asa.mapper.BackUserMapper.selectList - <==      Total: 0
+2025-04-08 16:20:42.990 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.insert - ==>  Preparing: INSERT INTO back_user ( id, name, mobile, password, create_time, update_time, delete_flag, version ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2025-04-08 16:20:42.994 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.insert - ==> Parameters: 0(Long), zhangsan(String), 13192019566(String), 224728(String), 2025-04-08 16:20:15.422(Timestamp), 2025-04-08 16:20:15.422(Timestamp), 0(Integer), 0(Integer)
+2025-04-08 16:20:43.368 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.insert - <==    Updates: 1
+2025-04-08 16:20:52.077 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.selectList - ==>  Preparing: SELECT id,name,mobile,password,create_time,update_time,delete_flag,version FROM back_user 
+2025-04-08 16:20:52.077 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.selectList - ==> Parameters: 
+2025-04-08 16:20:52.083 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.selectList - <==      Total: 1
+2025-04-08 16:21:17.382 [http-nio-8888-exec-6] DEBUG com.asa.mapper.BackUserMapper.insert - ==>  Preparing: INSERT INTO back_user ( id, name, mobile, password, create_time, update_time, delete_flag, version ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2025-04-08 16:21:17.385 [http-nio-8888-exec-6] DEBUG com.asa.mapper.BackUserMapper.insert - ==> Parameters: 0(Long), lisi(String), 13018603429(String), 123456(String), 2025-04-08 16:20:15.422(Timestamp), 2025-04-08 16:20:15.422(Timestamp), 0(Integer), 0(Integer)
+2025-04-08 16:21:34.631 [http-nio-8888-exec-5] DEBUG com.asa.mapper.BackUserMapper.insert - ==>  Preparing: INSERT INTO back_user ( id, name, mobile, password, create_time, update_time, delete_flag, version ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2025-04-08 16:21:34.632 [http-nio-8888-exec-5] DEBUG com.asa.mapper.BackUserMapper.insert - ==> Parameters: 0(Long), lisi(String), 13018603429(String), 123456(String), 2025-04-08 16:20:15.422(Timestamp), 2025-04-08 16:20:15.422(Timestamp), 0(Integer), 0(Integer)
+2025-04-08 16:21:42.672 [http-nio-8888-exec-7] DEBUG com.asa.mapper.BackUserMapper.selectList - ==>  Preparing: SELECT id,name,mobile,password,create_time,update_time,delete_flag,version FROM back_user 
+2025-04-08 16:21:42.673 [http-nio-8888-exec-7] DEBUG com.asa.mapper.BackUserMapper.selectList - ==> Parameters: 
+2025-04-08 16:21:42.676 [http-nio-8888-exec-7] DEBUG com.asa.mapper.BackUserMapper.selectList - <==      Total: 1
+2025-04-08 16:22:05.322 [http-nio-8888-exec-8] DEBUG com.asa.mapper.BackUserMapper.insert - ==>  Preparing: INSERT INTO back_user ( id, name, mobile, password, create_time, update_time, delete_flag, version ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2025-04-08 16:22:05.323 [http-nio-8888-exec-8] DEBUG com.asa.mapper.BackUserMapper.insert - ==> Parameters: 2(Long), lisi(String), 13018603429(String), 123456(String), 2025-04-08 16:20:15.422(Timestamp), 2025-04-08 16:20:15.422(Timestamp), 0(Integer), 0(Integer)
+2025-04-08 16:22:05.400 [http-nio-8888-exec-8] DEBUG com.asa.mapper.BackUserMapper.insert - <==    Updates: 1
+2025-04-08 16:22:46.046 [http-nio-8888-exec-10] DEBUG com.asa.mapper.BackUserMapper.selectList - ==>  Preparing: SELECT id,name,mobile,password,create_time,update_time,delete_flag,version FROM back_user 
+2025-04-08 16:22:46.047 [http-nio-8888-exec-10] DEBUG com.asa.mapper.BackUserMapper.selectList - ==> Parameters: 
+2025-04-08 16:22:46.050 [http-nio-8888-exec-10] DEBUG com.asa.mapper.BackUserMapper.selectList - <==      Total: 2
+2025-04-08 16:25:50.043 [main] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 16:26:35.035 [http-nio-8888-exec-7] DEBUG com.asa.mapper.BackUserMapper.deleteByMap - ==>  Preparing: UPDATE back_user SET delete_flag=1 WHERE name = ? AND delete_flag=0 
+2025-04-08 16:26:35.058 [http-nio-8888-exec-7] DEBUG com.asa.mapper.BackUserMapper.deleteByMap - ==> Parameters: lisi(String)
+2025-04-08 16:26:35.255 [http-nio-8888-exec-7] DEBUG com.asa.mapper.BackUserMapper.deleteByMap - <==    Updates: 1
+2025-04-08 16:26:43.038 [http-nio-8888-exec-8] DEBUG com.asa.mapper.BackUserMapper.selectList - ==>  Preparing: SELECT id,name,mobile,password,create_time,update_time,delete_flag,version FROM back_user WHERE delete_flag=0 
+2025-04-08 16:26:43.038 [http-nio-8888-exec-8] DEBUG com.asa.mapper.BackUserMapper.selectList - ==> Parameters: 
+2025-04-08 16:26:43.068 [http-nio-8888-exec-8] DEBUG com.asa.mapper.BackUserMapper.selectList - <==      Total: 1
+2025-04-08 16:30:35.623 [main] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 16:31:19.397 [http-nio-8888-exec-6] DEBUG com.asa.mapper.BackUserMapper.insert - ==>  Preparing: INSERT INTO back_user ( id, name, mobile, password, create_time, update_time, delete_flag, version ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2025-04-08 16:31:19.426 [http-nio-8888-exec-6] DEBUG com.asa.mapper.BackUserMapper.insert - ==> Parameters: 1(Long), lisi(String), 13018603429(String), 123456(String), 2025-04-08 16:30:56.276(Timestamp), 2025-04-08 16:30:56.276(Timestamp), 0(Integer), 0(Integer)
+2025-04-08 16:31:36.771 [http-nio-8888-exec-7] DEBUG com.asa.mapper.BackUserMapper.insert - ==>  Preparing: INSERT INTO back_user ( id, name, mobile, password, create_time, update_time, delete_flag, version ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2025-04-08 16:31:36.773 [http-nio-8888-exec-7] DEBUG com.asa.mapper.BackUserMapper.insert - ==> Parameters: 1(Long), wangwu(String), 13018603429(String), 123456(String), 2025-04-08 16:30:56.276(Timestamp), 2025-04-08 16:30:56.276(Timestamp), 0(Integer), 0(Integer)
+2025-04-08 16:31:36.849 [http-nio-8888-exec-7] DEBUG com.asa.mapper.BackUserMapper.insert - <==    Updates: 1
+2025-04-08 16:31:48.678 [http-nio-8888-exec-8] DEBUG com.asa.mapper.BackUserMapper.insert - ==>  Preparing: INSERT INTO back_user ( id, name, mobile, password, create_time, update_time, delete_flag, version ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ? ) 
+2025-04-08 16:31:48.680 [http-nio-8888-exec-8] DEBUG com.asa.mapper.BackUserMapper.insert - ==> Parameters: 3(Long), zhuliu(String), 13018603429(String), 123456(String), 2025-04-08 16:30:56.276(Timestamp), 2025-04-08 16:30:56.276(Timestamp), 0(Integer), 0(Integer)
+2025-04-08 16:31:48.754 [http-nio-8888-exec-8] DEBUG com.asa.mapper.BackUserMapper.insert - <==    Updates: 1
+2025-04-08 16:32:01.910 [http-nio-8888-exec-10] DEBUG com.asa.mapper.BackUserMapper.selectList - ==>  Preparing: SELECT id,name,mobile,password,create_time,update_time,delete_flag,version FROM back_user WHERE delete_flag=0 
+2025-04-08 16:32:01.911 [http-nio-8888-exec-10] DEBUG com.asa.mapper.BackUserMapper.selectList - ==> Parameters: 
+2025-04-08 16:32:01.941 [http-nio-8888-exec-10] DEBUG com.asa.mapper.BackUserMapper.selectList - <==      Total: 3
+2025-04-08 16:32:24.475 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM back_user WHERE delete_flag = 0 
+2025-04-08 16:32:24.476 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.selectPage - ==> Parameters: 
+2025-04-08 16:32:24.517 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.selectPage - ==>  Preparing: SELECT id,name,mobile,password,create_time,update_time,delete_flag,version FROM back_user WHERE delete_flag=0 LIMIT ?,? 
+2025-04-08 16:32:24.518 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.selectPage - ==> Parameters: 4(Long), 1(Long)
+2025-04-08 16:32:24.520 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.selectPage - <==      Total: 0
+2025-04-08 16:32:48.254 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.selectPage - ==>  Preparing: SELECT COUNT(1) FROM back_user WHERE delete_flag = 0 
+2025-04-08 16:32:48.255 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.selectPage - ==> Parameters: 
+2025-04-08 16:32:48.257 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.selectPage - ==>  Preparing: SELECT id,name,mobile,password,create_time,update_time,delete_flag,version FROM back_user WHERE delete_flag=0 LIMIT ?,? 
+2025-04-08 16:32:48.259 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.selectPage - ==> Parameters: 0(Long), 5(Long)
+2025-04-08 16:32:48.262 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.selectPage - <==      Total: 3
+2025-04-08 16:43:51.446 [main] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 16:47:20.242 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 17:03:26.929 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 17:04:25.314 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 17:17:47.942 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 20:57:49.277 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 20:59:24.551 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 21:48:42.985 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 21:55:45.387 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 21:56:52.757 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 21:58:49.264 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 23:00:35.608 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 23:02:09.411 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==>  Preparing: select * from back_user where name=? 
+2025-04-08 23:02:09.454 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==> Parameters: null
+2025-04-08 23:02:09.498 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - <==      Total: 0
+2025-04-08 23:05:29.872 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==>  Preparing: select * from back_user where name=? 
+2025-04-08 23:05:29.873 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==> Parameters: null
+2025-04-08 23:05:29.874 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.getUserByName - <==      Total: 0
+2025-04-08 23:07:17.280 [http-nio-8888-exec-3] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==>  Preparing: select * from back_user where name=? 
+2025-04-08 23:07:17.281 [http-nio-8888-exec-3] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==> Parameters: null
+2025-04-08 23:07:17.283 [http-nio-8888-exec-3] DEBUG com.asa.mapper.BackUserMapper.getUserByName - <==      Total: 0
+2025-04-08 23:08:00.192 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 23:08:42.887 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 23:09:17.275 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==>  Preparing: select * from back_user where name=? 
+2025-04-08 23:09:17.297 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==> Parameters: null
+2025-04-08 23:09:17.321 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - <==      Total: 0
+2025-04-08 23:13:29.877 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 23:13:54.800 [http-nio-8888-exec-3] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==>  Preparing: select * from back_user where name=? 
+2025-04-08 23:13:54.822 [http-nio-8888-exec-3] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==> Parameters: null
+2025-04-08 23:13:54.842 [http-nio-8888-exec-3] DEBUG com.asa.mapper.BackUserMapper.getUserByName - <==      Total: 0
+2025-04-08 23:16:42.208 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 23:18:14.591 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 23:20:01.140 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==>  Preparing: select * from back_user where name=? 
+2025-04-08 23:20:01.163 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==> Parameters: null
+2025-04-08 23:20:01.183 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.getUserByName - <==      Total: 0
+2025-04-08 23:26:26.975 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 23:26:51.674 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==>  Preparing: select * from back_user where userName=? 
+2025-04-08 23:26:51.698 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==> Parameters: null
+2025-04-08 23:28:11.291 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 23:28:33.666 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==>  Preparing: select * from back_user where name = ? 
+2025-04-08 23:28:33.696 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==> Parameters: null
+2025-04-08 23:28:33.723 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - <==      Total: 0
+2025-04-08 23:34:45.236 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 23:35:30.604 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 23:35:50.107 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==>  Preparing: select * from back_user where name = ? 
+2025-04-08 23:35:50.128 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==> Parameters: null
+2025-04-08 23:35:50.152 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - <==      Total: 0
+2025-04-08 23:41:29.642 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 23:42:01.167 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==>  Preparing: select * from back_user where name = ? 
+2025-04-08 23:42:01.188 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==> Parameters: null
+2025-04-08 23:42:01.237 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - <==      Total: 0
+2025-04-08 23:43:26.980 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 23:43:42.207 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==>  Preparing: select * from back_user where name = ? 
+2025-04-08 23:43:42.229 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==> Parameters: null
+2025-04-08 23:43:42.249 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - <==      Total: 0
+2025-04-08 23:49:48.230 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==>  Preparing: select * from back_user where name = ? 
+2025-04-08 23:49:48.231 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==> Parameters: zhangsan(String)
+2025-04-08 23:49:48.240 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.getUserByName - <==      Total: 1
+2025-04-08 23:50:50.218 [restartedMain] DEBUG com.asa.BackendApplication - Running with Spring Boot v2.6.13, Spring v5.3.23
+2025-04-08 23:51:05.215 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==>  Preparing: select * from back_user where name = ? 
+2025-04-08 23:51:05.237 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==> Parameters: zhangsan(String)
+2025-04-08 23:51:05.260 [http-nio-8888-exec-1] DEBUG com.asa.mapper.BackUserMapper.getUserByName - <==      Total: 1
+2025-04-08 23:53:25.157 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==>  Preparing: select * from back_user where name = ? 
+2025-04-08 23:53:25.158 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==> Parameters: zhangsan(String)
+2025-04-08 23:53:25.160 [http-nio-8888-exec-2] DEBUG com.asa.mapper.BackUserMapper.getUserByName - <==      Total: 1
+2025-04-08 23:54:03.152 [http-nio-8888-exec-3] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==>  Preparing: select * from back_user where name = ? 
+2025-04-08 23:54:03.153 [http-nio-8888-exec-3] DEBUG com.asa.mapper.BackUserMapper.getUserByName - ==> Parameters: lisi(String)
+2025-04-08 23:54:03.155 [http-nio-8888-exec-3] DEBUG com.asa.mapper.BackUserMapper.getUserByName - <==      Total: 1
